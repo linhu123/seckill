@@ -5,7 +5,7 @@ import seckill.com.linfix.seckill.entity.SuccessSeckilled;
 
 public interface SuccessSeckilledDao {
 	/**
-	 * 	²åÈë¹ºÂòÃ÷Ï¸£¬¿É¹ıÂËÖØ¸´
+	 * 	ï¿½ï¿½ï¿½ë¹ºï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½É¹ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½
 	 * @param seckillId
 	 * @param userPhone
 	 * @return
@@ -14,7 +14,7 @@ public interface SuccessSeckilledDao {
 	
 	
 	/**
-	 * 	¸ù¾İid²éÑ¯SuccessSecKilled²¢Ğ¯´øÃëÉ±²úÆ·¶ÔÏó
+	 * 	ï¿½ï¿½ï¿½ï¿½idï¿½ï¿½Ñ¯SuccessSecKilledï¿½ï¿½Ğ¯ï¿½ï¿½ï¿½ï¿½É±ï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½
 	 * @return
 	 */
 	SuccessSeckilled queryByIdWithSeckill();
