@@ -5,9 +5,10 @@ import java.util.List;
 
 import seckill.com.linfix.seckill.entity.Seckill;
 
+
 public interface SeckillDao {
 	/**
-	 * ¼õ¿â´æ
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @param seckillId
 	 * @param killTime
 	 * @return
@@ -15,14 +16,14 @@ public interface SeckillDao {
 	int reduceNumber(long seckillId,Date killTime);
 	
 	/**
-	 * ¸ù»ùseckillId ²éÑ¯seckil
+	 * ï¿½ï¿½ï¿½ï¿½seckillId ï¿½ï¿½Ñ¯seckil
 	 * @param seckillId
 	 * @return
 	 */
 	Seckill queryById(long seckillId);
 	
 	/**
-	 * ¸ù¾ÝÆ«ÒÆÁ¿²éÑ¯ÃëÉ±ÉÌÆ·ÁÐ±í
+	 * ï¿½ï¿½ï¿½ï¿½Æ«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½É±ï¿½ï¿½Æ·ï¿½Ð±ï¿½
 	 * @param offet
 	 * @param limit
 	 * @return

@@ -17,7 +17,7 @@ public interface SuccessSeckilledDao {
 	 * 	����id��ѯSuccessSecKilled��Я����ɱ��Ʒ����
 	 * @return
 	 */
-	SuccessSeckilled queryByIdWithSeckill();
+	SuccessSeckilled queryByIdWithSeckill(long seckillId,long userPhone);
 	
 	
 	
